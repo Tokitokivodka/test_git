@@ -67,4 +67,17 @@ git branch						//permet de connaître les branches existante dns le
 git branch ___						//permet de créer une nouvelle branche.
 git checkout ___					//cette fois ci, cette commande permet de changer de
 							  branche.
-git checkout -b ___					//Créer une nouvelle branche puis nous dépalce dedans.
+git checkout -b ___					//créer une nouvelle branche puis nous dépalce dedans.
+git merge ___						//permet de fusionner deux branches.
+git commit						//commit sans message.
+git blame ___						//permet de savoir qui a modifié exactement toutes
+							les lignes dans un fichier.
+git show ___						//pour savoir qui à modifier selon quel commit
+							et quel manip il à fait.
+git stash						//permet de mettre de côté le travail qui n'a pas
+							encore était commit.
+git stash pop						//permet de retrouver le travail que l'on avait mit 
+							de côté mais supprime ce qu'il y a dans le stash.
+git stash apply						//permet de retrouver le travail que l'on avait mit 
+							de côté mais cette fois ci en gardand dans le stash 
+							les infos qu'on avait inscrit.
