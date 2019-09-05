@@ -61,4 +61,10 @@ git push origin master                                  //permet de copier le co
                                                          une autre branche.
 git pull origin master                                  //permet de copier le code trouver sur son
                                                           repository git dans sa machine ("origin" et "master",
-                                                          comme dans le "git push", peuvent être modifié).
+							  comme dans le "git push", peuvent être modifier).
+git branch						//permet de connaître les branches existante dns le 
+							  repository.
+git branch ___						//permet de créer une nouvelle branche.
+git checkout ___					//cette fois ci, cette commande permet de changer de
+							  branche.
+git checkout -b ___					//Créer une nouvelle branche puis nous dépalce dedans.
